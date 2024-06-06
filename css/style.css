@@ -139,7 +139,7 @@ img {
 
 @media screen and (max-width: 480px) {
     .row {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .lessons .col {
@@ -149,10 +149,12 @@ img {
 
     .steps .col {
         width: 100%;
+        padding-bottom: 50px;
     }
 
     .why-us .col {
         width: 100%;
+        padding-bottom: 50px;
     }
 
     .steps {
